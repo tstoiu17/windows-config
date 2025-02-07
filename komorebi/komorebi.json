@@ -1,0 +1,169 @@
+{
+  "$schema": "https://raw.githubusercontent.com/LGUG2Z/komorebi/v0.1.33/schema.json",
+  "app_specific_configuration_path": "$Env:KOMOREBI_CONFIG_HOME/applications.json",
+  "window_hiding_behaviour": "Cloak",
+  "cross_monitor_move_behaviour": "Insert",
+  "default_workspace_padding": 0,
+  "default_container_padding": 0,
+  "border": true,
+  "border_width": 3,
+  "border_implementation": "Komorebi",
+  "border_style": "Rounded",
+  "border_offset": -1,
+  "theme": {
+    "palette": "Base16",
+    "name": "TokyoNightDark",
+  },
+  "stackbar": {
+    "mode": "Never",
+    "height": 20,
+    "label": "Title",
+    "tabs": {
+      "width": 400
+    }
+  },
+  "display_index_preferences": {
+    "0": "ACR0472-5&2be6d192&0&UID37126",
+    "1": "HKC2413-5&2be6d192&0&UID37122",
+    "2": "HKC1024-5&2be6d192&0&UID37125"
+  },
+  "bar_configurations": [
+    "$Env:KOMOREBI_CONFIG_HOME/komorebi.bar.main.json",
+    "$Env:KOMOREBI_CONFIG_HOME/komorebi.bar.1.json",
+    "$Env:KOMOREBI_CONFIG_HOME/komorebi.bar.2.json"
+  ],
+  "monitors": [
+    {
+      "workspaces": [
+        {
+          "name": "0",
+          "layout": "BSP",
+        },
+        {
+          "name": "1",
+          "layout": "BSP",
+        },
+        {
+          "name": "2",
+          "layout": "BSP",
+        },
+        {
+          "name": "3",
+          "layout": "BSP",
+        },
+        {
+          "name": "4",
+          "layout": "BSP",
+        },
+        {
+          "name": "5",
+          "layout": "BSP",
+        },
+        {
+          "name": "6",
+          "layout": "BSP",
+        },
+        {
+          "name": "7",
+          "layout": "BSP",
+        },
+        {
+          "name": "8",
+          "layout": "BSP",
+        },
+        {
+          "name": "9",
+          "layout": "BSP",
+        },
+      ]
+    },
+    {
+      "workspaces": [
+        {
+          "name": "0",
+          "layout": "Rows",
+        },
+        {
+          "name": "1",
+          "layout": "Rows",
+        },
+        {
+          "name": "2",
+          "layout": "Rows",
+        },
+        {
+          "name": "3",
+          "layout": "Rows",
+        },
+        {
+          "name": "4",
+          "layout": "Rows",
+        },
+        {
+          "name": "5",
+          "layout": "Rows",
+        },
+        {
+          "name": "6",
+          "layout": "Rows",
+        },
+        {
+          "name": "7",
+          "layout": "Rows",
+        },
+        {
+          "name": "8",
+          "layout": "Rows",
+        },
+        {
+          "name": "9",
+          "layout": "Rows",
+        },
+      ]
+    },
+    {
+      "workspaces": [
+        {
+          "name": "0",
+          "layout": "BSP",
+        },
+        {
+          "name": "1",
+          "layout": "BSP",
+        },
+        {
+          "name": "2",
+          "layout": "BSP",
+        },
+        {
+          "name": "3",
+          "layout": "BSP",
+        },
+        {
+          "name": "4",
+          "layout": "BSP",
+        },
+        {
+          "name": "5",
+          "layout": "BSP",
+        },
+        {
+          "name": "6",
+          "layout": "BSP",
+        },
+        {
+          "name": "7",
+          "layout": "BSP",
+        },
+        {
+          "name": "8",
+          "layout": "BSP",
+        },
+        {
+          "name": "9",
+          "layout": "BSP",
+        },
+      ]
+    }
+  ]
+}
