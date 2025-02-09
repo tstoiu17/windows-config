@@ -18,8 +18,8 @@ Komorebic(cmd) {
 #p::Komorebic("toggle-pause")
 
 #Enter::Run('alacritty.exe --command "wsl --distribution Ubuntu-22.04 --cd ~"')
-#+Enter::Run("cmd.exe")
-#b::Run("chrome.exe")
+#+Enter::Run("powershell.exe")
+#b::Run('chrome.exe --profile-directory="Default"')
 #+s::Send("{PrintScreen}")
 #d::Komorebic("close")
 
