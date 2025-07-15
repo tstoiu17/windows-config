@@ -1,94 +1,80 @@
 {
   "$schema": "https://raw.githubusercontent.com/LGUG2Z/komorebi/v0.1.33/schema.bar.json",
-  "frame": {
-    "inner_margin": {
-      "x": 0,
-      "y": 0
-    }
-  },
   "monitor": {
     "index": 0,
     "work_area_offset": {
       "left": 0,
-      "top": 25,
+      "top": 40,
       "right": 0,
-      "bottom": 25
+      "bottom": 40
     }
   },
-  "position": {
-    "start": {
-      "x": 0,
-      "y": 0
-    },
-    "end": {
-      "x": 1920,
-      "y": 25
-    }
-  },
-  "icon_scale": 1.1,
-  "font_size": 14,
+  "font_family": "JetBrains Mono",
   "theme": {
     "palette": "Base16",
-    "name": "TokyoNightDark",
+    "name": "Ashes",
     "accent": "Base0D"
   },
-  "transparency_alpha": 0,
-  "widget_spacing": 20,
   "left_widgets": [
     {
       "Komorebi": {
         "workspaces": {
           "enable": true,
-          "display": "IconAndText",
-          "hide_empty_workspaces": true
+          "hide_empty_workspaces": false
         },
         "layout": {
-          "enable": false
+          "enable": true
         },
         "focused_window": {
           "enable": true,
-          "display": "IconAndText",
           "show_icon": true
         }
       }
     }
   ],
-  "center_widgets": [],
   "right_widgets": [
     {
+      "Update": {
+        "enable": true
+      }
+    },
+    {
       "Media": {
-        "enable": false
+        "enable": true
       }
     },
     {
       "Storage": {
-        "enable": false
+        "enable": true
       }
     },
     {
       "Memory": {
-        "enable": false
+        "enable": true
       }
     },
     {
       "Network": {
-        "enable": false,
-        "show_total_data_transmitted": false,
-        "show_network_activity": false
+        "enable": true,
+        "show_total_data_transmitted": true,
+        "show_network_activity": true
       }
     },
     {
       "Date": {
         "enable": true,
-        "format": "YearMonthDate",
-        "label_prefix": "None"
+        "format": "DayDateMonthYear"
       }
     },
     {
       "Time": {
         "enable": true,
-        "format": "TwentyFourHour",
-        "label_prefix": "None"
+        "format": "TwentyFourHour"
+      }
+    },
+    {
+      "Battery": {
+        "enable": true
       }
     }
   ]

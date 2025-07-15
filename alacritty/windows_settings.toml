@@ -1,3 +1,3 @@
 [window]
-startup_mode = "Maximized"
 dynamic_title = false
+dynamic_padding = false

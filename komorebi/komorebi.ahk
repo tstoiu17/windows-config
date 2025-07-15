@@ -19,9 +19,12 @@ Komorebic(cmd) {
 
 #Enter::Run('alacritty.exe --command "wsl --distribution Ubuntu-22.04 --cd ~"')
 #+Enter::Run("powershell.exe")
-#b::Run('chrome.exe --profile-directory="Default"')
+#b::Run('zen.exe')
+; #b::Run('chrome.exe --profile-directory="Default"')
+#+b::Run('chrome.exe --profile-directory="Profile 3"')
 #+s::Send("{PrintScreen}")
 #d::Komorebic("close")
+#c::Run("copyq.exe toggle")
 
 ; Move windows
 #+h::Komorebic("move left")
@@ -46,7 +49,8 @@ Komorebic(cmd) {
 ; Manipulate windows
 #t::Komorebic("toggle-float")
 #f::Komorebic("toggle-monocle")
-#m::Komorebic("toggle-maximize")
+#m::Komorebic("unmanage")
+#+m::Komorebic("manage")
 
 ; Layout
 #q::Komorebic("change-layout rows")

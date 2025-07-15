@@ -10,9 +10,9 @@
     "index": 2,
     "work_area_offset": {
       "left": 0,
-      "top": 20,
+      "top": 25,
       "right": 0,
-      "bottom": 20
+      "bottom": 25
     }
   },
   "position": {
@@ -22,11 +22,10 @@
     },
     "end": {
       "x": 1920,
-      "y": 20
+      "y": 25
     }
   },
   "icon_scale": 1.1,
-  "font_family": "JetBrains Mono",
   "font_size": 14,
   "theme": {
     "palette": "Base16",
@@ -44,7 +43,7 @@
           "hide_empty_workspaces": true
         },
         "layout": {
-          "enable": true,
+          "enable": false,
           "display": "IconAndText"
         },
         "focused_window": {
@@ -58,7 +57,8 @@
     {
       "Time": {
         "enable": true,
-        "format": "TwentyFourHour"
+        "format": "TwentyFourHour",
+        "label_prefix": "None"
       }
     }
   ]
